@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Portfolio() {
   return (
     <section id="portfolio" className="portfolio">
@@ -21,10 +23,10 @@ export default function Portfolio() {
           <div className="col-lg-4 col-md-6 portfolio-item filter-app">
             <h1>Working in progress...</h1>
             <p>
-              Check{" "}
-              <a href="https://github.com/vsafonova" target="_blank">
+              Check
+              <Link to="https://github.com/vsafonova" target="_blank">
                 GitHub
-              </a>{" "}
+              </Link>
               to see my learning projects
             </p>
             {/* <div className="portfolio-wrap">

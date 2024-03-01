@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import SocialMedia from "../components/SocialMedia";
+
 export default function Contact() {
   return (
     <section id="contact" className="contact">
@@ -20,29 +23,7 @@ export default function Contact() {
             <div className="info-box">
               <i className="bx bx-share-alt"></i>
               <h3>Social Profiles</h3>
-              <div className="social-links">
-                <a
-                  href="https://github.com/vsafonova"
-                  className="github"
-                  target="_blank"
-                >
-                  <i className="bi bi-github"></i>
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/viktoriia-safonova-a399291a3/"
-                  className="linkedin"
-                  target="_blank"
-                >
-                  <i className="bi bi-linkedin"></i>
-                </a>
-                <a
-                  href="https://www.facebook.com/ViktorySafonova#"
-                  className="facebook"
-                  target="_blank"
-                >
-                  <i className="bi bi-facebook"></i>
-                </a>
-              </div>
+              <SocialMedia/>
             </div>
           </div>
           <div className="col-md-6 mt-4 d-flex align-items-stretch">
@@ -115,9 +96,9 @@ export default function Contact() {
             </div>
           </div>
           <div className="text-center">
-            <a href="mailto:viktorysafsweden@gmail.com?subject=Mail from Our Site">
+            <Link to="mailto:viktorysafsweden@gmail.com?subject=Mail from Our Site">
               <button type="submit">Send Message</button>
-            </a>
+            </Link>
           </div>
         </form>
       </div>

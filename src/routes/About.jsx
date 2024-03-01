@@ -62,49 +62,49 @@ export default function About() {
           <div className="row">
             <div className="col-lg-3 col-md-4">
               <div className="icon-box">
-                <i className="bi bi-airplane" style="color: #ffbb2c"></i>
+                <i className="bi bi-airplane" style={{color: "#ffbb2c"}}></i>
                 <h3>Travel</h3>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
               <div className="icon-box">
-                <i className="bi bi-camera-fill" style="color: #5578ff"></i>
+                <i className="bi bi-camera-fill" style={{color: "#5578ff"}}></i>
                 <h3>Photography</h3>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
               <div className="icon-box">
-                <i className="bi bi-tree-fill" style="color: green"></i>
+                <i className="bi bi-tree-fill" style={{color: "green"}}></i>
                 <h3>Hiking</h3>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 mt-4 mt-lg-0">
               <div className="icon-box">
-                <i className="bi bi-bicycle" style="color: #e361ff"></i>
+                <i className="bi bi-bicycle" style={{color: "#e361ff"}}></i>
                 <h3>Cycling</h3>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 mt-4">
               <div className="icon-box">
-                <i className="bi bi-egg-fried" style="color: yellow"></i>
+                <i className="bi bi-egg-fried" style={{color: "yellow"}}></i>
                 <h3>Cooking</h3>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 mt-4">
               <div className="icon-box">
-                <i className="bi bi-person-arms-up" style="color: orange"></i>
+                <i className="bi bi-person-arms-up" style={{color: "orange"}}></i>
                 <h3>Psychology and self-development</h3>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 mt-4">
               <div className="icon-box">
-                <i className="bi bi-bank" style="color: #11dbcf"></i>
+                <i className="bi bi-bank" style={{color: "#11dbcf"}}></i>
                 <h3>Policy</h3>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 mt-4">
               <div className="icon-box">
-                <i className="bi bi-code-slash" style="color: #b2904f"></i>
+                <i className="bi bi-code-slash" style={{color: "#b2904f"}}></i>
                 <h3>Programming</h3>
               </div>
             </div>

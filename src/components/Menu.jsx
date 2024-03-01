@@ -28,12 +28,12 @@ export default function Menu() {
       ariaLabel: "Navigate to the Resume Page",
     },
     {
-      to: "/Portfolio",
+      to: "/PortfolioPage",
       label: "Portfolio",
       ariaLabel: "Navigate to the Portfolio Page",
     },
     {
-      to: "/Contact",
+      to: "/ContactPage",
       label: "Contact",
       ariaLabel: "Navigate to the Contact Page",
     },
