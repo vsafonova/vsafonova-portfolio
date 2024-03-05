@@ -1,41 +1,22 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./routes/Home";
-import About from "./routes/About";
-import Resume from "./routes/Resume";
-import Portfolio from "./routes/Portfolio";
-import Contact from "./routes/Contact";
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/AboutPage",
-    element: <About />,
-  },
-  {
-    path: "/ResumePage",
-    element: <Resume />,
-  },
-  {
-    path: "/PortfolioPage",
-    element: <Portfolio />,
-  },
-  {
-    path: "/ContactPage",
-    element: <Contact />,
-  },
-]);
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import ResumePage from "./pages/ResumePage";
+import PortfolioPage from "./pages/PortfolioPage";
+import ContactPage from "./pages/Contact.Page";
 
 export default function App() {
   return (
     <>
-      {router.map(({ path, element }) => (
-        <RouterProvider key={path} router={router}>
-          {element}
-        </RouterProvider>
-      ))}
+    <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/AboutPage" element={<AboutPage />} />
+          <Route path="/ResumePage" element={<ResumePage />} />
+          <Route path="/PortfolioPage" element={<PortfolioPage />} />
+          <Route path="/ContactPage" element={<ContactPage/>} />
+        </Routes>
+      </Router>
     </>
   );
 }

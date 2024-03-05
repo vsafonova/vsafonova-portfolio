@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import Menu from "../components/Menu";
-import SocialMedia from "../components/SocialMedia";
+import SocialMedia from "./SocialMedia";
 
-export default function Home() {
+export default function Header() {
   return (
     <header id="header">
       <div className="container">

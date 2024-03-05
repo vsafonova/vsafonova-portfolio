@@ -1,7 +1,7 @@
 import SocialMediaLink from "./SocialMediaLink";
 
 export default function SocialMedia() {
-  const socialMediaLinks = [
+const socialMediaLinks = [
     {
       to: "https://www.facebook.com/ViktorySafonova/",
       className: "facebook",

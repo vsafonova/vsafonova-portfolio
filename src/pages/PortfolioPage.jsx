@@ -1,16 +1,19 @@
 import { Link } from "react-router-dom";
+import Header from "../components/Header";
 
-export default function Portfolio() {
+export default function PortfolioPage() {
   return (
-    <section id="portfolio" className="portfolio">
-      <div className="container">
-        <div className="section-title">
-          <h2>Portfolio</h2>
-          {/* <p>My Works</p>  */}
-        </div>
+    <>
+      <Header />
+      <section id="portfolio" className="portfolio section-show">
+        <div className="container">
+          <div className="section-title">
+            <h2>Portfolio</h2>
+            {/* <p>My Works</p>  */}
+          </div>
 
-        <div className="row">
-          {/* <div className="col-lg-12 d-flex justify-content-center">
+          <div className="row">
+            {/* <div className="col-lg-12 d-flex justify-content-center">
               <ul id="portfolio-flters">
                 <li data-filter="*" className="filter-active">All</li>
                 <li data-filter=".filter-app">App</li>
@@ -18,18 +21,18 @@ export default function Portfolio() {
                 <li data-filter=".filter-web">Web</li>
               </ul>
             </div>  */}
-        </div>
-        <div className="row portfolio-container">
-          <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-            <h1>Working in progress...</h1>
-            <p>
-              Check
-              <Link to="https://github.com/vsafonova" target="_blank">
-                GitHub
-              </Link>
-              to see my learning projects
-            </p>
-            {/* <div className="portfolio-wrap">
+          </div>
+          <div className="row portfolio-container">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+              <h1>Working in progress...</h1>
+              <p>
+                Check
+                <Link to="https://github.com/vsafonova" target="_blank">
+                  GitHub
+                </Link>
+                to see my learning projects
+              </p>
+              {/* <div className="portfolio-wrap">
                 <img
                   src="assets/img/portfolio/portfolio-1.jpg"
                   className="img-fluid"
@@ -57,9 +60,10 @@ export default function Portfolio() {
                   </div>
                 </div>
               </div> */}
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
