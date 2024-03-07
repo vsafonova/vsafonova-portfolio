@@ -5,17 +5,17 @@ const socialMediaLinks = [
     {
       to: "https://www.facebook.com/ViktorySafonova/",
       className: "facebook",
-      bootstrapClass: " bi bi-facebook",
+      bootstrapClass: "facebook",
     },
     {
       to: "https://www.linkedin.com/in/viktoriia-safonova-a399291a3/",
       className: "linkedin",
-      bootstrapClass: "bi bi-linkedin",
+      bootstrapClass: "linkedin",
     },
     {
       to: "https://github.com/vsafonova",
       className: "github",
-      bootstrapClass: "bi bi-github",
+      bootstrapClass: "github",
     },
   ];
 

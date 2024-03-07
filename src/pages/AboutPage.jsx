@@ -1,19 +1,19 @@
 import Header from "../components/Header";
 
 export default function AboutPage() {
+
   return (
     <>
     <Header/>
-      <section id="about" className="about section-show">
+      <section className="about">
         <div className="about-me container">
           <div className="section-title">
             <h2>About</h2>
             <p>Learn more about me</p>
           </div>
-
           <div className="row">
             <div className="col-lg-4" data-aos="fade-right">
-              <img src="./publicimg/me.jpg" className="img-fluid" alt="" />
+              <img src="./public/img/me.jpg" className="img-fluid" alt="" />
             </div>
             <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
               <h3>Frontend Developer</h3>
@@ -51,18 +51,10 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
-          <div className="skills container">
-            <div className="section-title">
-              <h2>Skills</h2>
-            </div>
-            <div className="row skills-content"></div>
-          </div>
-
           <div className="interests container">
             <div className="section-title">
               <h2>Interests</h2>
             </div>
-
             <div className="row">
               <div className="col-lg-3 col-md-4">
                 <div className="icon-box">
