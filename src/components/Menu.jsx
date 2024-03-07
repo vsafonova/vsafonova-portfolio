@@ -1,16 +1,11 @@
 import { Link } from "react-router-dom";
 
 export default function Menu() {
-  function handleLinkClick() {
-    console.log("You clicked the link");
-  }
-
   return (
     <nav id="navbar" className="navbar">
       <ul>
         <li>
           <Link
-            onClick={handleLinkClick}
             className="nav-link"
             to="/"
             aria-label="Navigate to the Home Page"
@@ -20,7 +15,6 @@ export default function Menu() {
         </li>
         <li>
           <Link
-            onClick={handleLinkClick}
             className="nav-link"
             to="/ProjectsPage"
             aria-label="Navigate to the Projects Page"
@@ -30,7 +24,6 @@ export default function Menu() {
         </li>
         <li>
           <Link
-            onClick={handleLinkClick}
             className="nav-link"
             to="/ResumePage"
             aria-label="Navigate to the Resume Page"
@@ -40,7 +33,6 @@ export default function Menu() {
         </li>
         <li>
           <Link
-            onClick={handleLinkClick}
             className="nav-link"
             to="/AboutPage"
             aria-label="Navigate to the About Page"
@@ -50,7 +42,6 @@ export default function Menu() {
         </li>
         <li>
           <Link
-            onClick={handleLinkClick}
             className="nav-link"
             to="/ContactPage"
             aria-label="Navigate to the Contact Page"

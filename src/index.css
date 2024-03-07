@@ -2,9 +2,12 @@
 body {
    font-family: "Open Sans", sans-serif;
    background-color: #040404;
-   color: #fff;
    position: relative;
    background: transparent;
+ }
+
+ .container {
+  color: #fff;
  }
  
  body::before {

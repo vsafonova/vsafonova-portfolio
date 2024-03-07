@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import Menu from "../components/Menu";
 import SocialMedia from "./SocialMedia";
 
-export default function Header() {
+export default function Header({ top }) {
   return (
-    <header id="header">
+    <header id="header" className={top ? "header-top" : ""}>
       <div className="container">
         <h1>
           <Link to="/">Viktoriia Safonova</Link>
@@ -13,7 +13,7 @@ export default function Header() {
           I'm a passionate <span>frontend developer</span> from Sweden
         </h2>
         <Menu />
-        <SocialMedia/>
+        <SocialMedia />
       </div>
     </header>
   );
