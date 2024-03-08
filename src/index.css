@@ -83,6 +83,7 @@ body {
    font-size: 24px;
    margin-top: 20px;
    color: rgba(255, 255, 255, 0.8);
+   width: 50%;
  }
  
  #header h2 span {
@@ -127,6 +128,7 @@ body {
    #header h2 {
      font-size: 20px;
      line-height: 30px;
+     width: 100%;
    }
  
    #header .social-links {

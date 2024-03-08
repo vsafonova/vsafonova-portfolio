@@ -9,7 +9,7 @@ export default function Header({ top }) {
         <h1>
           <Link to="/">Viktoriia Safonova</Link>
         </h1>
-        <h2 className="w-50">
+        <h2>
           Wide-rangering <span>frontend developer</span> with a psychological
           background
         </h2>
