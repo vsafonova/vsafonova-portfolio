@@ -9,8 +9,9 @@ export default function Header({ top }) {
         <h1>
           <Link to="/">Viktoriia Safonova</Link>
         </h1>
-        <h2>
-          I'm a passionate <span>frontend developer</span> from Sweden
+        <h2 className="w-50">
+          Wide-rangering <span>frontend developer</span> with a psychological
+          background
         </h2>
         <Menu />
         <SocialMedia />

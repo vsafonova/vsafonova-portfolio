@@ -1,6 +1,6 @@
 import Header from "./Header";
 
-export default function Page({ sectionName, heading, paragraph, children, containerClass}) {
+export default function PageContainer({ sectionName, heading, paragraph, children, containerClass}) {
   return (
     <>
       <Header top />

@@ -1,15 +1,15 @@
-import Page from "../components/Page";
 import Contacts from "../components/Contacts";
+import PageContainer from "../components/PageContainer";
 
 export default function ContactPage() {
   return (
-    <Page
+    <PageContainer
       sectionName={"contact"}
-      heading={"Contact"}
+      heading={"Let's work together"}
       paragraph={"Contact me"}
       containerClass={""}
     >
       <Contacts />
-    </Page>
+    </PageContainer>
   );
 }

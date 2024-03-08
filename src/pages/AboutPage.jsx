@@ -1,15 +1,15 @@
 import AboutMe from "../components/AboutMe";
-import Page from "../components/Page";
+import PageContainer from "../components/PageContainer";
 
 export default function AboutPage() {
   return (
-    <Page
+    <PageContainer
       sectionName={"about"}
       heading={"About"}
       paragraph={"Learn more about me"}
       containerClass={"about-me"}
     >
       <AboutMe />
-    </Page>
+    </PageContainer>
   );
 }

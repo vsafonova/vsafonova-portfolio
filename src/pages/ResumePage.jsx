@@ -1,15 +1,15 @@
-import Page from "../components/Page";
+import PageContainer from "../components/PageContainer";
 import ResumeData from "../components/ResumeData";
 
 export default function ResumePage() {
   return (
-    <Page
+    <PageContainer
       sectionName={"resume"}
       heading={"Resume"}
       paragraph={"Download my resume"}
       containerClass={""}
     >
       <ResumeData />
-    </Page>
+    </PageContainer>
   );
 }
