@@ -3,7 +3,7 @@ export default function AboutMe() {
     <>
       <div className="row">
         <div className="col-lg-4" data-aos="fade-right">
-          <img src="./img/me.jpg" className="img-fluid" alt="" />
+          <img src="./img/me.webp" className="img-fluid" alt="" />
         </div>
         <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
           <h3>Frontend Developer</h3>
