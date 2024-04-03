@@ -52,7 +52,6 @@ export default function Portfolio() {
       <div className="row portfolio-container">
         {projects.map(
           ({
-            filter,
             image,
             alt,
             projectName,
@@ -62,7 +61,6 @@ export default function Portfolio() {
           }) => (
             <Project
               key={projectName}
-              filter={filter}
               image={image}
               alt={alt}
               projectName={projectName}

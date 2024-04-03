@@ -1,5 +1,4 @@
 export default function Project({
-  filter,
   image,
   alt,
   projectName,
@@ -9,7 +8,7 @@ export default function Project({
 }) {
   return (
     <>
-      <div className={`col-lg-4 col-md-6 portfolio-item ${filter}`}>
+      <div className={`col-lg-4 col-md-6 portfolio-item`}>
         <div className="portfolio-wrap">
           <img
             src={`./img/portfolio/${image}`}
