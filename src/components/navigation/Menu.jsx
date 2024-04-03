@@ -1,57 +1,74 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./nav.css";
+import { useState } from "react";
 
 export default function Menu() {
+  const [isopened, setIsOpened] = useState(false);
+
+  function toggleNavbar() {
+    setIsOpened(!isopened);
+  }
+
+  let navbarClass = "navbar";
+  let iconClass = "bi-list";
+
+  if(isopened) {
+    navbarClass += " navbar-mobile";
+    iconClass = "bi-x"
+  }
+
+  
+
   return (
-    <nav id="navbar" className="navbar">
+    <nav id="navbar" className={navbarClass}>
       <ul>
         <li>
-          <Link
+          <NavLink
             className="nav-link"
             to="/"
             aria-label="Navigate to the Home Page"
           >
             Home
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link
+          <NavLink
             className="nav-link"
             to="/ProjectsPage"
             aria-label="Navigate to the Projects Page"
           >
             Projects
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link
+          <NavLink
             className="nav-link"
             to="/ResumePage"
             aria-label="Navigate to the Resume Page"
           >
             Resume
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link
+          <NavLink
             className="nav-link"
             to="/AboutPage"
             aria-label="Navigate to the About Page"
           >
             About
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link
+          <NavLink
             className="nav-link"
             to="/ContactPage"
             aria-label="Navigate to the Contact Page"
           >
             Contact
-          </Link>
+          </NavLink>
         </li>
       </ul>
-      <i className="bi bi-list mobile-nav-toggle"></i>
+      <i className={`bi ${iconClass} mobile-nav-toggle`} onClick={toggleNavbar}></i>
     </nav>
   );
 }
