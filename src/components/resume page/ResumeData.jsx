@@ -47,7 +47,7 @@ export default function ResumeData() {
   return (
     <>
       <div className="row">
-        <a href="/CV Resume.pdf" download>
+        <a href="/CV Safonova Viktoriia.pdf" download>
           <button>Download my resume</button>
         </a>
         <div className="col-lg-6">
