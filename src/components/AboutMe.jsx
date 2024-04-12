@@ -3,7 +3,7 @@ export default function AboutMe() {
     <>
       <div className="row">
         <div className="col-lg-4" data-aos="fade-right">
-          <img src="./img/me.webp" className="img-fluid" alt="" />
+          <img src="./img/me.jpg" className="img-fluid" alt="" />
         </div>
         <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
           <h3>Frontend Developer</h3>
@@ -40,9 +40,9 @@ export default function AboutMe() {
           </div>
         </div>
       </div>
-      <div className="interests container">
+      <div className="interests container px-0">
         <div className="section-title">
-          <h2>Interests</h2>
+          <h2 className="section-title">Interests</h2>
         </div>
         <div className="row">
           <div className="col-lg-3 col-md-4">

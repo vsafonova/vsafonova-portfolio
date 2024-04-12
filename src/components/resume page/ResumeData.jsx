@@ -39,7 +39,7 @@ export default function ResumeData() {
       year: "September 2024 - March 2025",
       place: "Stockholm, Sweden",
       description:
-        " I'm a student at Hyper Island, actively seeking internship opportunities in frontend development as an integral part of my educational journey at the university.",
+        "Enrolled in a frontend development program at Hyper Island, I actively engage in dynamic group projects, demonstrating exceptional teamwork abilities. Committed to continuous learning, I am fueled by a passion for personal growth and software development. Currently seeking an internship as part of my education, I eagerly anticipate the opportunity to contribute my enthusiasm and expertise to a talented engineering team, delivering high-quality solutions.",
     },
   ];
 
