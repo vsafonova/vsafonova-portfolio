@@ -51,12 +51,6 @@ export default function ResumeData() {
           <button>Download my resume</button>
         </a>
         <div className="col-lg-6">
-          <h3 className="resume-title">Education</h3>
-          {education.map(({ name, year, university }) => (
-            <ResumeItem key={name} name={name} year={year} place={university} />
-          ))}
-        </div>
-        <div className="col-lg-6">
           <h3 className="resume-title">Professional Experience</h3>
           {workExperience.map(({ name, year, place, description }) => (
             <ResumeItem
@@ -66,6 +60,12 @@ export default function ResumeData() {
               place={place}
               description={description}
             />
+          ))}
+        </div>
+        <div className="col-lg-6">
+          <h3 className="resume-title">Education</h3>
+          {education.map(({ name, year, university }) => (
+            <ResumeItem key={name} name={name} year={year} place={university} />
           ))}
         </div>
       </div>

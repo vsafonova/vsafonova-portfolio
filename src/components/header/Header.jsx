@@ -15,8 +15,7 @@ export default function Header() {
           <Link to="/">Viktoriia Safonova</Link>
         </h1>
         <h2>
-          Wide-rangering <span>frontend developer</span> with a psychological
-          background
+          Wide-ranging <span>frontend developer</span> with background in psychology
         </h2>
         <Menu />
         <SocialMedia />
