@@ -1,9 +1,13 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Menu from "../navigation/Menu";
 import SocialMedia from "../social media page/SocialMedia";
 import "./header.css";
 
-export default function Header({ top }) {
+export default function Header() {
+  const location = useLocation();
+  const { pathname } = location;
+  const top = pathname !== "/";
+
   return (
     <header id="header" className={top ? "header-top" : ""}>
       <div className="container">
