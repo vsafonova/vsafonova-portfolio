@@ -7,7 +7,6 @@ export default function ResumePage() {
     <PageContainer
       sectionName={"resume"}
       heading={"Resume"}
-      paragraph={"Download my resume"}
       containerClass={""}
     >
       <ResumeData />

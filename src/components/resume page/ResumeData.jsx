@@ -1,4 +1,5 @@
 import Skills from "./Skills";
+import "./resume.css";
 
 function ResumeItem({ name, year, place, description }) {
   return (
@@ -46,6 +47,9 @@ export default function ResumeData() {
   return (
     <>
       <div className="row">
+        <a href="/CV Resume.pdf" download>
+          <button>Download my resume</button>
+        </a>
         <div className="col-lg-6">
           <h3 className="resume-title">Education</h3>
           {education.map(({ name, year, university }) => (
