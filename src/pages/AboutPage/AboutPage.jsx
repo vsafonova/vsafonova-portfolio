@@ -1,4 +1,4 @@
-import AboutMe from "../../components/AboutMe";
+import AboutMe from "../../components/about page/AboutMe";
 import PageContainer from "../../components/pageContainer/PageContainer";
 import "./about.css";
 
