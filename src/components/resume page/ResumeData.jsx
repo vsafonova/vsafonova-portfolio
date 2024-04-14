@@ -1,18 +1,6 @@
-import Skills from "./Skills";
+import Skill from "./Skill";
+import ResumeItem from "./ResumeItem";
 import "./resume.css";
-
-function ResumeItem({ name, year, place, description }) {
-  return (
-    <div className="resume-item">
-      <h4>{name}</h4>
-      <h5>{year}</h5>
-      <p>
-        <em>{place}</em>
-      </p>
-      <p>{description}</p>
-    </div>
-  );
-}
 
 export default function ResumeData() {
   const education = [
@@ -44,6 +32,37 @@ export default function ResumeData() {
     },
   ];
 
+  let skills = [
+    {
+      skillTitle: "Code",
+      skillsList: [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "Bootstrap",
+        "Tailwind",
+        "SEO and accessibility",
+        "RESTful principles",
+        "Basic knowledge of SQL",
+      ],
+    },
+    {
+      skillTitle: "Toolbox",
+      skillsList: ["VS Code", "Figma", "Git", "Lighthouse"],
+    },
+    {
+      skillTitle: "Other",
+      skillsList: [
+        "Agile Methodology",
+        "SCRUM",
+        "Mob programming",
+        "Working in collaboration with clients and UX designers",
+        "Team Management",
+      ],
+    },
+  ];
+
   return (
     <>
       <div className="row">
@@ -69,7 +88,16 @@ export default function ResumeData() {
           ))}
         </div>
       </div>
-      <Skills />
+      <h2 className="resume-title">Skills</h2>
+      <div className="skills-content">
+        {skills.map(({ skillTitle, skillsList }) => (
+          <Skill
+            key={skillTitle}
+            skillTitle={skillTitle}
+            skillsList={skillsList}
+          />
+        ))}
+      </div>
     </>
   );
 }

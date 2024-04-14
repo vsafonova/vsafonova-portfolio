@@ -12,12 +12,10 @@ export default function Menu() {
   let navbarClass = "navbar";
   let iconClass = "bi-list";
 
-  if(isopened) {
+  if (isopened) {
     navbarClass += " navbar-mobile";
-    iconClass = "bi-x"
+    iconClass = "bi-x";
   }
-
-  
 
   return (
     <nav id="navbar" className={navbarClass}>
@@ -68,7 +66,10 @@ export default function Menu() {
           </NavLink>
         </li>
       </ul>
-      <i className={`bi ${iconClass} mobile-nav-toggle`} onClick={toggleNavbar}></i>
+      <i
+        className={`bi ${iconClass} mobile-nav-toggle`}
+        onClick={toggleNavbar}
+      ></i>
     </nav>
   );
 }

@@ -9,19 +9,21 @@ export default function PageContainer({
   children,
   containerClass,
 }) {
-  const [sectionShown, setSectionShown] = useState(false)
-  const [] =useState()
+  const [sectionShown, setSectionShown] = useState(false);
+  const [] = useState();
 
   useEffect(() => {
     setTimeout(() => {
-      setSectionShown(true)
-    },350)
-  }, [])
+      setSectionShown(true);
+    }, 350);
+  }, []);
 
   return (
     <>
-      <Header top={sectionShown}/>
-      <section className={`${sectionName} ${sectionShown ? "section-show" : ""}`}>
+      <Header top={sectionShown} />
+      <section
+        className={`${sectionName} ${sectionShown ? "section-show" : ""}`}
+      >
         <div className={`${containerClass} container`}>
           <div className="section-title">
             <h2>{heading}</h2>
