@@ -79,13 +79,14 @@
   font-size: 20px;
   color: #fff;
   font-weight: 600;
+  margin-top: 0.5rem;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #ffffff;
   font-size: 14px;
   text-transform: uppercase;
-  padding: 0;
+  padding-inline: 1rem;
   margin: 0;
 }
 
