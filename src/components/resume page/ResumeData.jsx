@@ -5,7 +5,7 @@ import "./resume.css";
 export default function ResumeData() {
   const education = [
     {
-      name: "Higher vocational education of Frontend Developmen",
+      name: "Higher vocational education of Frontend Development",
       year: "2023 - 2025",
       university: "Hyper Island, Sweden",
     },
