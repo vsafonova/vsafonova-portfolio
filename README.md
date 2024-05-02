@@ -10,7 +10,7 @@ These projects were instrumental in honing my skills, and thus, I remain open to
 * HTML / CSS / Tailwindcss / Bootstrap / Vanilla JavaScript / React.js / node.js / Contentful CMS / API / RESTful API / database / SEO / Accessibility / User authentication and authorization
 
 ## Project links:
-### Website: [Visit the website](https://app.netlify.com/sites/vsafonova-portfolio/)
+### Website: [Visit the website](https://vsafonova-portfolio.netlify.app/)
 
 ## Third-party libraries:
 * CSS framework Tailwindcss: [Tailwind](https://tailwindcss.com/)
