@@ -9,7 +9,7 @@ export default function Portfolio() {
       projectDescription: "Website for the Yennenga Progress company",
       gitHubLink: "https://github.com/vsafonova/yennenga-progress-website",
       websiteLink: "https://yennengaprogress.netlify.app/",
-    }, 
+    },
     {
       image: "taskify.webp",
       alt: "The main page of the Taskify app with logo and buttons for login and register account",
