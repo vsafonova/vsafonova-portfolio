@@ -65,6 +65,12 @@ export default function AboutMe() {
             opportunities in frontend development as an integral part of my
             educational journey at the university.
           </p>
+          <p className="fst-italic">
+            I have a particular interest in developing my skills in React;
+            however, I am fully open to acquiring proficiency in other
+            JavaScript frameworks and libraries, including Vue.js, Angular,
+            Svelte, and next.js, among others.
+          </p>
           <div className="row">
             <div className="col-lg-6">
               <ul>

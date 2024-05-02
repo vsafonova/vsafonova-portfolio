@@ -3,6 +3,14 @@ import Project from "./Project";
 export default function Portfolio() {
   const projects = [
     {
+      image: "yennenga-progress.webp",
+      alt: "The landing page of the Yennenga Progress website",
+      projectName: "Yennenga Progress",
+      projectDescription: "Website for the Yennenga Progress company",
+      gitHubLink: "https://github.com/vsafonova/yennenga-progress-website",
+      websiteLink: "https://yennengaprogress.netlify.app/",
+    }, 
+    {
       image: "taskify.webp",
       alt: "The main page of the Taskify app with logo and buttons for login and register account",
       projectName: "Taskify",

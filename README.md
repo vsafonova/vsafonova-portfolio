@@ -1,8 +1,18 @@
-# React + Vite
+# Portfolio website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Within my portfolio, you'll find a compilation of projects I engaged in during my studies at Hyper Island. 
 
-Currently, two official plugins are available:
+These projects were instrumental in honing my skills, and thus, I remain open to continuous refinement and enhancement in alignment with my evolving proficiency.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+***This is a website where you can view information about me, download my resume, and see all of the projects which I worked in groups during my educational journey at Hyper Island***
+
+## Tools and stack: 
+* HTML / CSS / Tailwindcss / Bootstrap / Vanilla JavaScript / React.js / node.js / Contentful CMS / API / RESTful API / database / SEO / Accessibility / User authentication and authorization
+
+## Project links:
+### Website: [Visit the website](https://app.netlify.com/sites/vsafonova-portfolio/)
+
+## Third-party libraries:
+* CSS framework Tailwindcss: [Tailwind](https://tailwindcss.com/)
+* CSS framework Bootstrap:[Bootstrap](https://getbootstrap.com/)
+* Custom Content Management Contentful: [Contentful](https://www.contentful.com/get-started/)
