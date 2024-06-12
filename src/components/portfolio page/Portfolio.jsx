@@ -3,12 +3,20 @@ import Project from "./Project";
 export default function Portfolio() {
   const projects = [
     {
+      image: "doraemon-chef.webp",
+      alt: "",
+      projectName: "Pancake cafe",
+      projectDescription: "A unique family pancake restaurant with our main chef Doraemon.",
+      gitHubLink: "https://github.com/vsafonova/doraemon-chef",
+      websiteLink: "https://doraemonon-cafe.netlify.app",
+    },
+    {
       image: "yennenga-progress.webp",
       alt: "The landing page of the Yennenga Progress website",
       projectName: "Yennenga Progress",
       projectDescription: "Website for the Yennenga Progress company",
       gitHubLink: "https://github.com/vsafonova/yennenga-progress-website",
-      websiteLink: "https://yennengaprogress.netlify.app/",
+      websiteLink: "https://yennengaprogress.netlify.app",
     },
     {
       image: "taskify.webp",
@@ -16,7 +24,7 @@ export default function Portfolio() {
       projectName: "Taskify",
       projectDescription: "Web app for managing a TODO list",
       gitHubLink: "https://github.com/vsafonova/TodoList",
-      websiteLink: "https://todo-list-gules-xi.vercel.app/",
+      websiteLink: "https://todo-list-gules-xi.vercel.app",
     },
     {
       image: "hidden-gems.webp",
@@ -25,7 +33,7 @@ export default function Portfolio() {
       projectDescription:
         " Catch inspiration for exploring Sweden from a fresh perspective",
       gitHubLink: "https://github.com/vsafonova/hidden-gems",
-      websiteLink: "https://hidden-gems-swe.netlify.app/",
+      websiteLink: "https://hidden-gems-swe.netlify.app",
     },
     {
       image: "movie-match.webp",
@@ -34,7 +42,7 @@ export default function Portfolio() {
       projectDescription:
         " This entire app is a clever cover-up designed for us creators to judge you based on our own personal tastes",
       gitHubLink: "https://github.com/vsafonova/movie-match",
-      websiteLink: "https://vsafonova.github.io/movie-match/",
+      websiteLink: "https://vsafonova.github.io/movie-match",
     },
     {
       image: "memory-game.webp",
@@ -43,7 +51,7 @@ export default function Portfolio() {
       projectDescription:
         "Uncover two matching cards at once to eliminate them from the game",
       gitHubLink: "https://github.com/vsafonova/memory-card-game",
-      websiteLink: "https://vsafonova.github.io/memory-card-game/",
+      websiteLink: "https://vsafonova.github.io/memory-card-game",
     },
     {
       image: "design-company.webp",
@@ -51,7 +59,7 @@ export default function Portfolio() {
       projectName: "Design Company",
       projectDescription: "TURNKEY REPAIR IN THE CITY OF STOCKHOLM",
       gitHubLink: "https://github.com/vsafonova/lending-project",
-      websiteLink: "https://vsafonova.github.io/lending-project/",
+      websiteLink: "https://vsafonova.github.io/lending-project",
     },
   ];
 
