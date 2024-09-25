@@ -61,15 +61,20 @@ export default function AboutMe() {
         <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
           <h3>Frontend Developer</h3>
           <p className="fst-italic">
-            I'm a student at Hyper Island, actively seeking internship
-            opportunities in frontend development as an integral part of my
-            educational journey at the university.
+            A passionate and enthusiastic frontend developer currently enrolled
+            in a program at Hyper Island where I engage in dynamic group
+            projects that showcase my strong teamwork abilities. My passion for
+            personal growth and software development drives me to continuously
+            learn and improve my skills.
           </p>
           <p className="fst-italic">
-            I have a particular interest in developing my skills in React;
-            however, I am fully open to acquiring proficiency in other
-            JavaScript frameworks and libraries, including Vue.js, Angular,
-            Svelte, and next.js, among others.
+            I have a solid foundation in Git, HTML5, CSS, JavaScript, React.js,
+            Tailwind CSS, Bootstrap, and Node.js. I also have experience with
+            SEO and user authentication. While I am particularly focused on
+            enhancing my expertise in React, I am excited to explore other
+            JavaScript frameworks and libraries such as Vue.js, Angular, Svelte,
+            and Next.js. Additionally, I am eager to learn TypeScript to further
+            enhance my development capabilities.
           </p>
           <div className="row">
             <div className="col-lg-6">
