@@ -24,11 +24,10 @@ export default function ResumeData() {
 
   const workExperience = [
     {
-      name: "Junior Frontend Developer",
+      name: "Frontend Developer Intern at Umain",
       year: "September 2024 - March 2025",
       place: "Stockholm, Sweden",
-      description:
-        "Enrolled in a frontend development program at Hyper Island, I actively engage in dynamic group projects, demonstrating exceptional teamwork abilities. Committed to continuous learning, I am fueled by a passion for personal growth and software development. Currently seeking an internship as part of my education, I eagerly anticipate the opportunity to contribute my enthusiasm and expertise to a talented engineering team, delivering high-quality solutions.",
+      description: "",
     },
   ];
 

@@ -3,10 +3,20 @@ import Project from "./Project";
 export default function Portfolio() {
   const projects = [
     {
+      image: "Roamlog.webp",
+      alt: "",
+      projectName: "Roamlog - unclock the world",
+      projectDescription:
+        "A web app for tracking visited countries and managing travel wishlists",
+      gitHubLink: "https://github.com/vsafonova/Roamlog",
+      websiteLink: "https://roamlog.vercel.app",
+    },
+    {
       image: "doraemon-chef.webp",
       alt: "",
       projectName: "Pancake cafe",
-      projectDescription: "A unique family pancake restaurant with our main chef Doraemon.",
+      projectDescription:
+        "A unique family pancake restaurant with our main chef Doraemon.",
       gitHubLink: "https://github.com/vsafonova/doraemon-chef",
       websiteLink: "https://doraemonon-cafe.netlify.app",
     },
