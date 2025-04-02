@@ -56,25 +56,45 @@ export default function AboutMe() {
     <>
       <div className="row">
         <div className="col-lg-4" data-aos="fade-right">
-          <img src="./img/me.jpg" className="img-fluid" alt="" />
+          <img src="./img/me1.jpg" className="img-fluid" alt="" />
         </div>
         <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
           <h3>Frontend Developer</h3>
           <p className="fst-italic">
-            A passionate and enthusiastic frontend developer currently enrolled
-            in a program at Hyper Island where I engage in dynamic group
-            projects that showcase my strong teamwork abilities. My passion for
-            personal growth and software development drives me to continuously
-            learn and improve my skills.
+            I'm passionate about crafting engaging user experiences and turning
+            innovative ideas into reality through code.
           </p>
           <p className="fst-italic">
-            I have a solid foundation in Git, HTML5, CSS, JavaScript, React.js,
-            Tailwind CSS, Bootstrap, and Node.js. I also have experience with
-            SEO and user authentication. While I am particularly focused on
-            enhancing my expertise in React, I am excited to explore other
-            JavaScript frameworks and libraries such as Vue.js, Angular, Svelte,
-            and Next.js. Additionally, I am eager to learn TypeScript to further
-            enhance my development capabilities.
+            My journey into the world of web development is driven by a deep
+            curiosity for technology and a desire to create impactful,
+            user-centric digital solutions. With a blend of creativity,
+            technical skills, and a collaborative spirit, I'm on a mission to
+            build intuitive and responsive web applications.
+          </p>
+          <ul className="d-flex flex-column justify-content-center pl-0">
+            🏆 My top 5 strengths:
+            <li className="mb-0">
+              • Strong teamwork abilities demonstrated through dynamic group
+              projects
+            </li>
+            <li className="mb-0">
+              • Continuous learner with a passion for personal and professional
+              growth
+            </li>
+            <li className="mb-0">
+              • Solid foundation in modern web technologies and frameworks
+            </li>
+            <li className="mb-0">
+              • Ability to adapt quickly to new technologies and development
+              practices
+            </li>
+          </ul>
+          <p>
+            My toolkit includes Git, HTML5, CSS, JavaScript, React.js, Tailwind
+            CSS, Bootstrap, Node.js, Next.js, TypeScript, React Native,
+            Storybook, Webflow, and Sanity CMS. While I'm particularly focused
+            on mastering React, I'm eager to explore Vue.js, Angular, and
+            Svelte.
           </p>
           <div className="row">
             <div className="col-lg-6">
@@ -90,16 +110,22 @@ export default function AboutMe() {
               </ul>
             </div>
             <p>
-              When I started to learn programming, I felt like this was where I
-              belonged for the first time. My passion for coding was ignited
-              through self-guided programming courses, and from that point
-              onward, I was captivated by the art of bringing ideas to life
-              through code and its immense satisfaction.
+              My journey didn't start here. Prior to my transition into tech, I
+              studied psychology at university, which has given me valuable
+              insights into user behavior and cognitive processes - a unique
+              perspective I bring to my development work. Outside of coding, I
+              am passionate about outdoor activities and traveling to discover
+              beautiful natural places and hidden gems. I believe that exploring
+              the great outdoors fuels my creativity and inspires my work.
             </p>
             <p>
-              My ambition is to continually evolve into a proficient developer,
-              dedicated to crafting innovative IT solutions that enhance user
-              experiences and simplify their daily lives.
+              As I look to the future, I'm excited about opportunities where I
+              can apply my skills, contribute to meaningful projects, and
+              continue growing as a developer. If you're looking for a frontend
+              developer who combines technical skills with a deep understanding
+              of user psychology and thrives in collaborative environments,
+              let's connect. I'm ready to turn creative concepts into engaging,
+              functional web experiences.
             </p>
           </div>
         </div>
