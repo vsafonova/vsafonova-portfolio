@@ -25,7 +25,8 @@ export default function Portfolio() {
       alt: "The landing page of the Yennenga Progress website",
       projectName: "Yennenga Progress",
       projectDescription: "Website for the Yennenga Progress company",
-      gitHubLink: "https://github.com/vsafonova/yennenga-progress-website",
+      gitHubLink:
+        "https://github.com/hyper-island-collaboration-work/yennenga-progress-group-3",
       websiteLink: "https://yennengaprogress.netlify.app",
     },
     {
