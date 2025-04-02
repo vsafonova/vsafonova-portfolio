@@ -27,7 +27,8 @@ export default function ResumeData() {
       name: "Frontend Developer Intern at Umain",
       year: "September 2024 - March 2025",
       place: "Stockholm, Sweden",
-      description: "",
+      description:
+        "Developed a comprehensive component library using Storybook and TypeScript to ensure UI consistency across projects, complemented by a prototype website in Next.js and Sanity CMS for dynamic content management. Designed and implemented a Slack bot using Slack API and Node.js to automate employee engagement tasks.  Have a solid foundation in React Native for building scalable and visually appealing cross-platform mobile applications. Successfully designed and deployed custom websites for PCL Company using Webflow, ensuring brand consistency and streamlined content updates.",
     },
   ];
 
@@ -40,10 +41,14 @@ export default function ResumeData() {
         "JavaScript",
         "React",
         "Bootstrap",
-        "Tailwind",
-        "SEO and accessibility",
-        "RESTful principles",
-        "Basic knowledge of SQL",
+        "Tailwind.CSS",
+        "TypeScript",
+        "Next.js",
+        "React Native",
+        "Node.js",
+        "Sanity CMS",
+        "Webflow",
+        "Storybook",
       ],
     },
     {
@@ -65,7 +70,7 @@ export default function ResumeData() {
   return (
     <>
       <div className="row">
-        <a href="/CV Safonova Viktoriia.pdf" download>
+        <a href="/ViktoriiaSafonovaResume.pdf" download>
           <button>Download my resume</button>
         </a>
         <div className="col-lg-6">
