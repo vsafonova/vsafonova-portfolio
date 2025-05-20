@@ -14,7 +14,7 @@ export default function Portfolio() {
     {
       image: "NFusion.webp",
       alt: "",
-      projectName: "Nfusion",
+      projectName: "nFusion",
       projectDescription:
         "Official website builded with Webflow for the PCL company",
       gitHubLink: "",
