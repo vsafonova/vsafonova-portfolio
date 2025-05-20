@@ -19,9 +19,11 @@ export default function Project({
             <h4>{projectName}</h4>
             <p>{projectDescription}</p>
             <div className="portfolio-links">
-              <a href={gitHubLink} target="_blank" title="GitHub">
-                <i className="bi bi-github"></i>
-              </a>
+              {gitHubLink && (
+                <a href={gitHubLink} target="_blank" title="GitHub">
+                  <i className="bi bi-github"></i>
+                </a>
+              )}
               <a
                 href={websiteLink}
                 target="_blank"

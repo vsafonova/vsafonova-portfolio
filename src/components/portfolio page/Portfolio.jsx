@@ -3,6 +3,24 @@ import Project from "./Project";
 export default function Portfolio() {
   const projects = [
     {
+      image: "Nassal.webp",
+      alt: "",
+      projectName: "Nassal",
+      projectDescription:
+        "Official website builded with Webflow for the PCL company",
+      gitHubLink: "",
+      websiteLink: "https://www.nassal.com",
+    },
+    {
+      image: "NFusion.webp",
+      alt: "",
+      projectName: "Nfusion",
+      projectDescription:
+        "Official website builded with Webflow for the PCL company",
+      gitHubLink: "",
+      websiteLink: "https://www.nfusionpcl.com",
+    },
+    {
       image: "Roamlog.webp",
       alt: "",
       projectName: "Roamlog - unclock the world",
@@ -70,7 +88,7 @@ export default function Portfolio() {
       projectName: "Design Company",
       projectDescription: "TURNKEY REPAIR IN THE CITY OF STOCKHOLM",
       gitHubLink: "https://github.com/vsafonova/lending-project",
-      websiteLink: "https://vsafonova.github.io/lending-project",
+      websiteLink: "https://landing-project-five.vercel.app",
     },
   ];
 
