@@ -5,7 +5,7 @@ export default function Portfolio() {
     {
       image: "Nassal.webp",
       alt: "",
-      projectName: "Nassal",
+      projectName: "nassal",
       projectDescription:
         "Official website builded with Webflow for the PCL company",
       gitHubLink: "",
